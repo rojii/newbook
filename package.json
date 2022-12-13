@@ -1,0 +1,30 @@
+{
+  "name": "newbook",
+  "version": "0.1.0",
+  "description": "Orderbook API",
+  "license": "MIT",
+  "repository": "git://github.com/rojii/newbook.git",
+  "homepage": "https://github.com/rojii/newbook",
+  "bugs": {
+    "url": "https://github.com/rojii/newbook/issues"
+  },
+  "author": "Jonathan Gonzalez <rojikkushisutemu@gmail.com>",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "bcfg": "git+https://github.com/bcoin-org/bcfg.git#semver:~0.1.7",
+    "bcurl": "git+https://github.com/bcoin-org/bcurl.git#semver:^0.1.6",
+    "blgr": "git+https://github.com/bcoin-org/blgr.git#semver:~0.2.0",
+    "brq": "git+https://github.com/bcoin-org/brq.git#semver:~0.1.7",
+    "bsert": "git+https://github.com/chjj/bsert.git#semver:~0.0.10",
+    "bweb": "git+https://github.com/bcoin-org/bweb.git#semver:=0.1.9"
+  },
+  "devDependencies": {
+    "bmocha": "git+https://github.com/bcoin-org/bmocha.git#semver:=2.1.2"
+  },
+  "main": "./lib/api.js",
+  "bin": {
+    "orderbook-cli": "./bin/cli"
+  }
+}
